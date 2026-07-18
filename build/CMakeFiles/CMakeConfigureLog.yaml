@@ -1,0 +1,2524 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/home/edercito/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+    searched_directories:
+      - "/home/edercito/.guix-profile/bin/uname"
+      - "/home/edercito/.local/bin/uname"
+      - "/home/edercito/.opencode/bin/uname"
+      - "/home/edercito/.nix-profile/bin/uname"
+      - "/nix/var/nix/profiles/default/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 6.18.35-1-lts - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/home/edercito/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/edercito/.guix-profile/bin/gmake"
+      - "/home/edercito/.local/bin/gmake"
+      - "/home/edercito/.opencode/bin/gmake"
+      - "/home/edercito/.nix-profile/bin/gmake"
+      - "/nix/var/nix/profiles/default/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/usr/bin/site_perl/gmake"
+      - "/usr/bin/vendor_perl/gmake"
+      - "/usr/bin/core_perl/gmake"
+      - "/home/edercito/.guix-profile/bin/make"
+      - "/home/edercito/.local/bin/make"
+      - "/home/edercito/.opencode/bin/make"
+      - "/home/edercito/.nix-profile/bin/make"
+      - "/nix/var/nix/profiles/default/bin/make"
+      - "/usr/local/sbin/make"
+      - "/usr/local/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/home/edercito/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/edercito/.guix-profile/bin/cc"
+      - "/home/edercito/.local/bin/cc"
+      - "/home/edercito/.opencode/bin/cc"
+    found: "/home/edercito/.nix-profile/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/edercito/.nix-profile/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /home/edercito/Development/EtexUI/build/CMakeFiles/4.3.4/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/edercito/.nix-profile/bin/llvm-ar"
+      - "/home/edercito/.guix-profile/bin/llvm-ar"
+      - "/home/edercito/.local/bin/llvm-ar"
+      - "/home/edercito/.opencode/bin/llvm-ar"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar"
+      - "/usr/local/sbin/llvm-ar"
+      - "/usr/local/bin/llvm-ar"
+      - "/usr/bin/llvm-ar"
+      - "/usr/bin/site_perl/llvm-ar"
+      - "/usr/bin/vendor_perl/llvm-ar"
+      - "/usr/bin/core_perl/llvm-ar"
+    found: "/home/edercito/.nix-profile/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/edercito/.nix-profile/bin/llvm-ranlib"
+      - "/home/edercito/.guix-profile/bin/llvm-ranlib"
+      - "/home/edercito/.local/bin/llvm-ranlib"
+      - "/home/edercito/.opencode/bin/llvm-ranlib"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib"
+      - "/usr/local/sbin/llvm-ranlib"
+      - "/usr/local/bin/llvm-ranlib"
+      - "/usr/bin/llvm-ranlib"
+      - "/usr/bin/site_perl/llvm-ranlib"
+      - "/usr/bin/vendor_perl/llvm-ranlib"
+      - "/usr/bin/core_perl/llvm-ranlib"
+    found: "/home/edercito/.nix-profile/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/edercito/.nix-profile/bin/llvm-strip"
+      - "/home/edercito/.guix-profile/bin/llvm-strip"
+      - "/home/edercito/.local/bin/llvm-strip"
+      - "/home/edercito/.opencode/bin/llvm-strip"
+      - "/nix/var/nix/profiles/default/bin/llvm-strip"
+      - "/usr/local/sbin/llvm-strip"
+      - "/usr/local/bin/llvm-strip"
+      - "/usr/bin/llvm-strip"
+      - "/usr/bin/site_perl/llvm-strip"
+      - "/usr/bin/vendor_perl/llvm-strip"
+      - "/usr/bin/core_perl/llvm-strip"
+    found: "/home/edercito/.nix-profile/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/edercito/.nix-profile/bin/ld.lld"
+      - "/home/edercito/.guix-profile/bin/ld.lld"
+      - "/home/edercito/.local/bin/ld.lld"
+      - "/home/edercito/.opencode/bin/ld.lld"
+      - "/nix/var/nix/profiles/default/bin/ld.lld"
+      - "/usr/local/sbin/ld.lld"
+      - "/usr/local/bin/ld.lld"
+    found: "/usr/bin/ld.lld"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/edercito/.nix-profile/bin/llvm-nm"
+      - "/home/edercito/.guix-profile/bin/llvm-nm"
+      - "/home/edercito/.local/bin/llvm-nm"
+      - "/home/edercito/.opencode/bin/llvm-nm"
+      - "/nix/var/nix/profiles/default/bin/llvm-nm"
+      - "/usr/local/sbin/llvm-nm"
+      - "/usr/local/bin/llvm-nm"
+      - "/usr/bin/llvm-nm"
+      - "/usr/bin/site_perl/llvm-nm"
+      - "/usr/bin/vendor_perl/llvm-nm"
+      - "/usr/bin/core_perl/llvm-nm"
+    found: "/home/edercito/.nix-profile/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/edercito/.nix-profile/bin/llvm-objdump"
+      - "/home/edercito/.guix-profile/bin/llvm-objdump"
+      - "/home/edercito/.local/bin/llvm-objdump"
+      - "/home/edercito/.opencode/bin/llvm-objdump"
+      - "/nix/var/nix/profiles/default/bin/llvm-objdump"
+      - "/usr/local/sbin/llvm-objdump"
+      - "/usr/local/bin/llvm-objdump"
+      - "/usr/bin/llvm-objdump"
+      - "/usr/bin/site_perl/llvm-objdump"
+      - "/usr/bin/vendor_perl/llvm-objdump"
+      - "/usr/bin/core_perl/llvm-objdump"
+    found: "/home/edercito/.nix-profile/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/edercito/.nix-profile/bin/llvm-objcopy"
+      - "/home/edercito/.guix-profile/bin/llvm-objcopy"
+      - "/home/edercito/.local/bin/llvm-objcopy"
+      - "/home/edercito/.opencode/bin/llvm-objcopy"
+      - "/nix/var/nix/profiles/default/bin/llvm-objcopy"
+      - "/usr/local/sbin/llvm-objcopy"
+      - "/usr/local/bin/llvm-objcopy"
+      - "/usr/bin/llvm-objcopy"
+      - "/usr/bin/site_perl/llvm-objcopy"
+      - "/usr/bin/vendor_perl/llvm-objcopy"
+      - "/usr/bin/core_perl/llvm-objcopy"
+    found: "/home/edercito/.nix-profile/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/edercito/.nix-profile/bin/llvm-readelf"
+      - "/home/edercito/.guix-profile/bin/llvm-readelf"
+      - "/home/edercito/.local/bin/llvm-readelf"
+      - "/home/edercito/.opencode/bin/llvm-readelf"
+      - "/nix/var/nix/profiles/default/bin/llvm-readelf"
+      - "/usr/local/sbin/llvm-readelf"
+      - "/usr/local/bin/llvm-readelf"
+      - "/usr/bin/llvm-readelf"
+      - "/usr/bin/site_perl/llvm-readelf"
+      - "/usr/bin/vendor_perl/llvm-readelf"
+      - "/usr/bin/core_perl/llvm-readelf"
+    found: "/home/edercito/.nix-profile/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/edercito/.nix-profile/bin/llvm-dlltool"
+      - "/home/edercito/.guix-profile/bin/llvm-dlltool"
+      - "/home/edercito/.local/bin/llvm-dlltool"
+      - "/home/edercito/.opencode/bin/llvm-dlltool"
+      - "/nix/var/nix/profiles/default/bin/llvm-dlltool"
+      - "/usr/local/sbin/llvm-dlltool"
+      - "/usr/local/bin/llvm-dlltool"
+      - "/usr/bin/llvm-dlltool"
+      - "/usr/bin/site_perl/llvm-dlltool"
+      - "/usr/bin/vendor_perl/llvm-dlltool"
+      - "/usr/bin/core_perl/llvm-dlltool"
+      - "/home/edercito/.nix-profile/bin/dlltool"
+      - "/home/edercito/.guix-profile/bin/dlltool"
+      - "/home/edercito/.local/bin/dlltool"
+      - "/home/edercito/.opencode/bin/dlltool"
+      - "/nix/var/nix/profiles/default/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/usr/bin/site_perl/dlltool"
+      - "/usr/bin/vendor_perl/dlltool"
+      - "/usr/bin/core_perl/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/edercito/.nix-profile/bin/llvm-addr2line"
+      - "/home/edercito/.guix-profile/bin/llvm-addr2line"
+      - "/home/edercito/.local/bin/llvm-addr2line"
+      - "/home/edercito/.opencode/bin/llvm-addr2line"
+      - "/nix/var/nix/profiles/default/bin/llvm-addr2line"
+      - "/usr/local/sbin/llvm-addr2line"
+      - "/usr/local/bin/llvm-addr2line"
+      - "/usr/bin/llvm-addr2line"
+      - "/usr/bin/site_perl/llvm-addr2line"
+      - "/usr/bin/vendor_perl/llvm-addr2line"
+      - "/usr/bin/core_perl/llvm-addr2line"
+    found: "/home/edercito/.nix-profile/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/edercito/.nix-profile/bin/tapi"
+      - "/home/edercito/.guix-profile/bin/tapi"
+      - "/home/edercito/.local/bin/tapi"
+      - "/home/edercito/.opencode/bin/tapi"
+      - "/nix/var/nix/profiles/default/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/"
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ar-21.1"
+      - "/home/edercito/.nix-profile/bin/llvm-ar-21.1"
+      - "/home/edercito/.guix-profile/bin/llvm-ar-21.1"
+      - "/home/edercito/.local/bin/llvm-ar-21.1"
+      - "/home/edercito/.opencode/bin/llvm-ar-21.1"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar-21.1"
+      - "/usr/local/sbin/llvm-ar-21.1"
+      - "/usr/local/bin/llvm-ar-21.1"
+      - "/usr/bin/llvm-ar-21.1"
+      - "/usr/bin/site_perl/llvm-ar-21.1"
+      - "/usr/bin/vendor_perl/llvm-ar-21.1"
+      - "/usr/bin/core_perl/llvm-ar-21.1"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ar-21"
+      - "/home/edercito/.nix-profile/bin/llvm-ar-21"
+      - "/home/edercito/.guix-profile/bin/llvm-ar-21"
+      - "/home/edercito/.local/bin/llvm-ar-21"
+      - "/home/edercito/.opencode/bin/llvm-ar-21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar-21"
+      - "/usr/local/sbin/llvm-ar-21"
+      - "/usr/local/bin/llvm-ar-21"
+      - "/usr/bin/llvm-ar-21"
+      - "/usr/bin/site_perl/llvm-ar-21"
+      - "/usr/bin/vendor_perl/llvm-ar-21"
+      - "/usr/bin/core_perl/llvm-ar-21"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ar21"
+      - "/home/edercito/.nix-profile/bin/llvm-ar21"
+      - "/home/edercito/.guix-profile/bin/llvm-ar21"
+      - "/home/edercito/.local/bin/llvm-ar21"
+      - "/home/edercito/.opencode/bin/llvm-ar21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar21"
+      - "/usr/local/sbin/llvm-ar21"
+      - "/usr/local/bin/llvm-ar21"
+      - "/usr/bin/llvm-ar21"
+      - "/usr/bin/site_perl/llvm-ar21"
+      - "/usr/bin/vendor_perl/llvm-ar21"
+      - "/usr/bin/core_perl/llvm-ar21"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ar"
+      - "/home/edercito/.nix-profile/bin/llvm-ar"
+      - "/home/edercito/.guix-profile/bin/llvm-ar"
+      - "/home/edercito/.local/bin/llvm-ar"
+      - "/home/edercito/.opencode/bin/llvm-ar"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar"
+      - "/usr/local/sbin/llvm-ar"
+      - "/usr/local/bin/llvm-ar"
+      - "/usr/bin/llvm-ar"
+      - "/usr/bin/site_perl/llvm-ar"
+      - "/usr/bin/vendor_perl/llvm-ar"
+      - "/usr/bin/core_perl/llvm-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/"
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ranlib-21.1"
+      - "/home/edercito/.nix-profile/bin/llvm-ranlib-21.1"
+      - "/home/edercito/.guix-profile/bin/llvm-ranlib-21.1"
+      - "/home/edercito/.local/bin/llvm-ranlib-21.1"
+      - "/home/edercito/.opencode/bin/llvm-ranlib-21.1"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib-21.1"
+      - "/usr/local/sbin/llvm-ranlib-21.1"
+      - "/usr/local/bin/llvm-ranlib-21.1"
+      - "/usr/bin/llvm-ranlib-21.1"
+      - "/usr/bin/site_perl/llvm-ranlib-21.1"
+      - "/usr/bin/vendor_perl/llvm-ranlib-21.1"
+      - "/usr/bin/core_perl/llvm-ranlib-21.1"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ranlib-21"
+      - "/home/edercito/.nix-profile/bin/llvm-ranlib-21"
+      - "/home/edercito/.guix-profile/bin/llvm-ranlib-21"
+      - "/home/edercito/.local/bin/llvm-ranlib-21"
+      - "/home/edercito/.opencode/bin/llvm-ranlib-21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib-21"
+      - "/usr/local/sbin/llvm-ranlib-21"
+      - "/usr/local/bin/llvm-ranlib-21"
+      - "/usr/bin/llvm-ranlib-21"
+      - "/usr/bin/site_perl/llvm-ranlib-21"
+      - "/usr/bin/vendor_perl/llvm-ranlib-21"
+      - "/usr/bin/core_perl/llvm-ranlib-21"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ranlib21"
+      - "/home/edercito/.nix-profile/bin/llvm-ranlib21"
+      - "/home/edercito/.guix-profile/bin/llvm-ranlib21"
+      - "/home/edercito/.local/bin/llvm-ranlib21"
+      - "/home/edercito/.opencode/bin/llvm-ranlib21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib21"
+      - "/usr/local/sbin/llvm-ranlib21"
+      - "/usr/local/bin/llvm-ranlib21"
+      - "/usr/bin/llvm-ranlib21"
+      - "/usr/bin/site_perl/llvm-ranlib21"
+      - "/usr/bin/vendor_perl/llvm-ranlib21"
+      - "/usr/bin/core_perl/llvm-ranlib21"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ranlib"
+      - "/home/edercito/.nix-profile/bin/llvm-ranlib"
+      - "/home/edercito/.guix-profile/bin/llvm-ranlib"
+      - "/home/edercito/.local/bin/llvm-ranlib"
+      - "/home/edercito/.opencode/bin/llvm-ranlib"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib"
+      - "/usr/local/sbin/llvm-ranlib"
+      - "/usr/local/bin/llvm-ranlib"
+      - "/usr/bin/llvm-ranlib"
+      - "/usr/bin/site_perl/llvm-ranlib"
+      - "/usr/bin/vendor_perl/llvm-ranlib"
+      - "/usr/bin/core_perl/llvm-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/"
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/clang-scan-deps-21.1"
+      - "/home/edercito/.nix-profile/bin/clang-scan-deps-21.1"
+      - "/home/edercito/.guix-profile/bin/clang-scan-deps-21.1"
+      - "/home/edercito/.local/bin/clang-scan-deps-21.1"
+      - "/home/edercito/.opencode/bin/clang-scan-deps-21.1"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps-21.1"
+      - "/usr/local/sbin/clang-scan-deps-21.1"
+      - "/usr/local/bin/clang-scan-deps-21.1"
+      - "/usr/bin/clang-scan-deps-21.1"
+      - "/usr/bin/site_perl/clang-scan-deps-21.1"
+      - "/usr/bin/vendor_perl/clang-scan-deps-21.1"
+      - "/usr/bin/core_perl/clang-scan-deps-21.1"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/clang-scan-deps-21"
+      - "/home/edercito/.nix-profile/bin/clang-scan-deps-21"
+      - "/home/edercito/.guix-profile/bin/clang-scan-deps-21"
+      - "/home/edercito/.local/bin/clang-scan-deps-21"
+      - "/home/edercito/.opencode/bin/clang-scan-deps-21"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps-21"
+      - "/usr/local/sbin/clang-scan-deps-21"
+      - "/usr/local/bin/clang-scan-deps-21"
+      - "/usr/bin/clang-scan-deps-21"
+      - "/usr/bin/site_perl/clang-scan-deps-21"
+      - "/usr/bin/vendor_perl/clang-scan-deps-21"
+      - "/usr/bin/core_perl/clang-scan-deps-21"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/clang-scan-deps21"
+      - "/home/edercito/.nix-profile/bin/clang-scan-deps21"
+      - "/home/edercito/.guix-profile/bin/clang-scan-deps21"
+      - "/home/edercito/.local/bin/clang-scan-deps21"
+      - "/home/edercito/.opencode/bin/clang-scan-deps21"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps21"
+      - "/usr/local/sbin/clang-scan-deps21"
+      - "/usr/local/bin/clang-scan-deps21"
+      - "/usr/bin/clang-scan-deps21"
+      - "/usr/bin/site_perl/clang-scan-deps21"
+      - "/usr/bin/vendor_perl/clang-scan-deps21"
+      - "/usr/bin/core_perl/clang-scan-deps21"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/clang-scan-deps"
+      - "/home/edercito/.nix-profile/bin/clang-scan-deps"
+      - "/home/edercito/.guix-profile/bin/clang-scan-deps"
+      - "/home/edercito/.local/bin/clang-scan-deps"
+      - "/home/edercito/.opencode/bin/clang-scan-deps"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps"
+      - "/usr/local/sbin/clang-scan-deps"
+      - "/usr/local/bin/clang-scan-deps"
+      - "/usr/bin/clang-scan-deps"
+      - "/usr/bin/site_perl/clang-scan-deps"
+      - "/usr/bin/vendor_perl/clang-scan-deps"
+      - "/usr/bin/core_perl/clang-scan-deps"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/home/edercito/.nix-profile/bin/"
+    found: "/home/edercito/.nix-profile/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/edercito/.nix-profile/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/edercito/Development/EtexUI/build/CMakeFiles/4.3.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/"
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ar-21.1"
+      - "/home/edercito/.nix-profile/bin/llvm-ar-21.1"
+      - "/home/edercito/.guix-profile/bin/llvm-ar-21.1"
+      - "/home/edercito/.local/bin/llvm-ar-21.1"
+      - "/home/edercito/.opencode/bin/llvm-ar-21.1"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar-21.1"
+      - "/usr/local/sbin/llvm-ar-21.1"
+      - "/usr/local/bin/llvm-ar-21.1"
+      - "/usr/bin/llvm-ar-21.1"
+      - "/usr/bin/site_perl/llvm-ar-21.1"
+      - "/usr/bin/vendor_perl/llvm-ar-21.1"
+      - "/usr/bin/core_perl/llvm-ar-21.1"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ar-21"
+      - "/home/edercito/.nix-profile/bin/llvm-ar-21"
+      - "/home/edercito/.guix-profile/bin/llvm-ar-21"
+      - "/home/edercito/.local/bin/llvm-ar-21"
+      - "/home/edercito/.opencode/bin/llvm-ar-21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar-21"
+      - "/usr/local/sbin/llvm-ar-21"
+      - "/usr/local/bin/llvm-ar-21"
+      - "/usr/bin/llvm-ar-21"
+      - "/usr/bin/site_perl/llvm-ar-21"
+      - "/usr/bin/vendor_perl/llvm-ar-21"
+      - "/usr/bin/core_perl/llvm-ar-21"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ar21"
+      - "/home/edercito/.nix-profile/bin/llvm-ar21"
+      - "/home/edercito/.guix-profile/bin/llvm-ar21"
+      - "/home/edercito/.local/bin/llvm-ar21"
+      - "/home/edercito/.opencode/bin/llvm-ar21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar21"
+      - "/usr/local/sbin/llvm-ar21"
+      - "/usr/local/bin/llvm-ar21"
+      - "/usr/bin/llvm-ar21"
+      - "/usr/bin/site_perl/llvm-ar21"
+      - "/usr/bin/vendor_perl/llvm-ar21"
+      - "/usr/bin/core_perl/llvm-ar21"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ar"
+      - "/home/edercito/.nix-profile/bin/llvm-ar"
+      - "/home/edercito/.guix-profile/bin/llvm-ar"
+      - "/home/edercito/.local/bin/llvm-ar"
+      - "/home/edercito/.opencode/bin/llvm-ar"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar"
+      - "/usr/local/sbin/llvm-ar"
+      - "/usr/local/bin/llvm-ar"
+      - "/usr/bin/llvm-ar"
+      - "/usr/bin/site_perl/llvm-ar"
+      - "/usr/bin/vendor_perl/llvm-ar"
+      - "/usr/bin/core_perl/llvm-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/"
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ranlib-21.1"
+      - "/home/edercito/.nix-profile/bin/llvm-ranlib-21.1"
+      - "/home/edercito/.guix-profile/bin/llvm-ranlib-21.1"
+      - "/home/edercito/.local/bin/llvm-ranlib-21.1"
+      - "/home/edercito/.opencode/bin/llvm-ranlib-21.1"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib-21.1"
+      - "/usr/local/sbin/llvm-ranlib-21.1"
+      - "/usr/local/bin/llvm-ranlib-21.1"
+      - "/usr/bin/llvm-ranlib-21.1"
+      - "/usr/bin/site_perl/llvm-ranlib-21.1"
+      - "/usr/bin/vendor_perl/llvm-ranlib-21.1"
+      - "/usr/bin/core_perl/llvm-ranlib-21.1"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ranlib-21"
+      - "/home/edercito/.nix-profile/bin/llvm-ranlib-21"
+      - "/home/edercito/.guix-profile/bin/llvm-ranlib-21"
+      - "/home/edercito/.local/bin/llvm-ranlib-21"
+      - "/home/edercito/.opencode/bin/llvm-ranlib-21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib-21"
+      - "/usr/local/sbin/llvm-ranlib-21"
+      - "/usr/local/bin/llvm-ranlib-21"
+      - "/usr/bin/llvm-ranlib-21"
+      - "/usr/bin/site_perl/llvm-ranlib-21"
+      - "/usr/bin/vendor_perl/llvm-ranlib-21"
+      - "/usr/bin/core_perl/llvm-ranlib-21"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ranlib21"
+      - "/home/edercito/.nix-profile/bin/llvm-ranlib21"
+      - "/home/edercito/.guix-profile/bin/llvm-ranlib21"
+      - "/home/edercito/.local/bin/llvm-ranlib21"
+      - "/home/edercito/.opencode/bin/llvm-ranlib21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib21"
+      - "/usr/local/sbin/llvm-ranlib21"
+      - "/usr/local/bin/llvm-ranlib21"
+      - "/usr/bin/llvm-ranlib21"
+      - "/usr/bin/site_perl/llvm-ranlib21"
+      - "/usr/bin/vendor_perl/llvm-ranlib21"
+      - "/usr/bin/core_perl/llvm-ranlib21"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/llvm-ranlib"
+      - "/home/edercito/.nix-profile/bin/llvm-ranlib"
+      - "/home/edercito/.guix-profile/bin/llvm-ranlib"
+      - "/home/edercito/.local/bin/llvm-ranlib"
+      - "/home/edercito/.opencode/bin/llvm-ranlib"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib"
+      - "/usr/local/sbin/llvm-ranlib"
+      - "/usr/local/bin/llvm-ranlib"
+      - "/usr/bin/llvm-ranlib"
+      - "/usr/bin/site_perl/llvm-ranlib"
+      - "/usr/bin/vendor_perl/llvm-ranlib"
+      - "/usr/bin/core_perl/llvm-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/"
+      - "/home/edercito/.nix-profile/bin/"
+      - "/home/edercito/.guix-profile/bin/"
+      - "/home/edercito/.local/bin/"
+      - "/home/edercito/.opencode/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/clang-scan-deps-21.1"
+      - "/home/edercito/.nix-profile/bin/clang-scan-deps-21.1"
+      - "/home/edercito/.guix-profile/bin/clang-scan-deps-21.1"
+      - "/home/edercito/.local/bin/clang-scan-deps-21.1"
+      - "/home/edercito/.opencode/bin/clang-scan-deps-21.1"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps-21.1"
+      - "/usr/local/sbin/clang-scan-deps-21.1"
+      - "/usr/local/bin/clang-scan-deps-21.1"
+      - "/usr/bin/clang-scan-deps-21.1"
+      - "/usr/bin/site_perl/clang-scan-deps-21.1"
+      - "/usr/bin/vendor_perl/clang-scan-deps-21.1"
+      - "/usr/bin/core_perl/clang-scan-deps-21.1"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/clang-scan-deps-21"
+      - "/home/edercito/.nix-profile/bin/clang-scan-deps-21"
+      - "/home/edercito/.guix-profile/bin/clang-scan-deps-21"
+      - "/home/edercito/.local/bin/clang-scan-deps-21"
+      - "/home/edercito/.opencode/bin/clang-scan-deps-21"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps-21"
+      - "/usr/local/sbin/clang-scan-deps-21"
+      - "/usr/local/bin/clang-scan-deps-21"
+      - "/usr/bin/clang-scan-deps-21"
+      - "/usr/bin/site_perl/clang-scan-deps-21"
+      - "/usr/bin/vendor_perl/clang-scan-deps-21"
+      - "/usr/bin/core_perl/clang-scan-deps-21"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/clang-scan-deps21"
+      - "/home/edercito/.nix-profile/bin/clang-scan-deps21"
+      - "/home/edercito/.guix-profile/bin/clang-scan-deps21"
+      - "/home/edercito/.local/bin/clang-scan-deps21"
+      - "/home/edercito/.opencode/bin/clang-scan-deps21"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps21"
+      - "/usr/local/sbin/clang-scan-deps21"
+      - "/usr/local/bin/clang-scan-deps21"
+      - "/usr/bin/clang-scan-deps21"
+      - "/usr/bin/site_perl/clang-scan-deps21"
+      - "/usr/bin/vendor_perl/clang-scan-deps21"
+      - "/usr/bin/core_perl/clang-scan-deps21"
+      - "/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/bin/clang-scan-deps"
+      - "/home/edercito/.nix-profile/bin/clang-scan-deps"
+      - "/home/edercito/.guix-profile/bin/clang-scan-deps"
+      - "/home/edercito/.local/bin/clang-scan-deps"
+      - "/home/edercito/.opencode/bin/clang-scan-deps"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps"
+      - "/usr/local/sbin/clang-scan-deps"
+      - "/usr/local/bin/clang-scan-deps"
+      - "/usr/bin/clang-scan-deps"
+      - "/usr/bin/site_perl/clang-scan-deps"
+      - "/usr/bin/vendor_perl/clang-scan-deps"
+      - "/usr/bin/core_perl/clang-scan-deps"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-BbPPFn"
+      binary: "/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-BbPPFn"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-BbPPFn'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_629bc/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_629bc.dir/build.make CMakeFiles/cmTC_629bc.dir/build
+        make[1]: Entering directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-BbPPFn'
+        Building C object CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o
+        /home/edercito/.nix-profile/bin/cc   -v -MD -MT CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        clang version 21.1.8
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin
+        Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin/clang-21" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-BbPPFn -v -fcoverage-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-BbPPFn -nostdsysteminc -resource-dir /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root -dependency-file CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o -sys-header-deps -idirafter /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0 -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include -fmacro-prefix-map=/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-67-dev/include -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0 -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include
+         /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include
+        End of search list.
+        Linking C executable cmTC_629bc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_629bc.dir/link.txt --verbose=1
+        clang version 21.1.8
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin
+        Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_629bc /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib -L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib -L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o
+        GNU ld (GNU Binutils) 2.46
+        /home/edercito/.nix-profile/bin/cc  -v -Wl,-v CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o -o cmTC_629bc
+        make[1]: Leaving directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-BbPPFn'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include]
+          add: [/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include] ==> [/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include]
+        collapse include dir [/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include] ==> [/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+        implicit include dirs: [/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include;/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-BbPPFn']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_629bc/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_629bc.dir/build.make CMakeFiles/cmTC_629bc.dir/build]
+        ignore line: [make[1]: Entering directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-BbPPFn']
+        ignore line: [Building C object CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/edercito/.nix-profile/bin/cc   -v -MD -MT CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin/clang-21" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-BbPPFn -v -fcoverage-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-BbPPFn -nostdsysteminc -resource-dir /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root -dependency-file CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o -sys-header-deps -idirafter /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0 -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include -fmacro-prefix-map=/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-67-dev/include -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0 -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-unknown-linux-gnu]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include]
+        ignore line: [ /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_629bc]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_629bc.dir/link.txt --verbose=1]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_629bc /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib -L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib -L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o]
+          arg [/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_629bc] ==> ignore
+          arg [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o] ==> obj [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o]
+          arg [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o] ==> obj [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o]
+          arg [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o] ==> obj [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o]
+          arg [-L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib] ==> dir [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib]
+          arg [-L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib] ==> dir [/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib]
+          arg [-L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib] ==> dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib]
+          arg [-L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib] ==> dir [/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib]
+          arg [-L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib] ==> dir [/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib]
+          arg [-L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_629bc.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o] ==> obj [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o]
+          arg [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o] ==> obj [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o]
+        linker tool for 'C': /nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld
+        collapse library dir [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib] ==> [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib]
+        collapse library dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib] ==> [/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib]
+        collapse library dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib]
+        collapse library dir [/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib] ==> [/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib]
+        collapse library dir [/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib] ==> [/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib]
+        collapse library dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o;/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o;/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o]
+        implicit dirs: [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0;/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib;/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib;/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib;/lib64;/usr/lib64;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-nxy7Pm"
+      binary: "/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-nxy7Pm"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-nxy7Pm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6e2e6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6e2e6.dir/build.make CMakeFiles/cmTC_6e2e6.dir/build
+        make[1]: Entering directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-nxy7Pm'
+        Building CXX object CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o
+        /home/edercito/.nix-profile/bin/c++   -v -MD -MT CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 21.1.8
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin
+        Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-nxy7Pm -v -fcoverage-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-nxy7Pm -nostdsysteminc -resource-dir /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root -dependency-file CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0 -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include -fmacro-prefix-map=/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-67-dev/include -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0 -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0
+         /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu
+         /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include
+         /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include
+        End of search list.
+        Linking CXX executable cmTC_6e2e6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e2e6.dir/link.txt --verbose=1
+        clang version 21.1.8
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin
+        Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_6e2e6 /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib -L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib -L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o
+        GNU ld (GNU Binutils) 2.46
+        /home/edercito/.nix-profile/bin/c++  -v -Wl,-v CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6e2e6
+        make[1]: Leaving directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-nxy7Pm'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0]
+          add: [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu]
+          add: [/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include]
+          add: [/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0]
+        collapse include dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu]
+        collapse include dir [/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include] ==> [/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include]
+        collapse include dir [/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include] ==> [/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+        implicit include dirs: [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu;/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include;/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-nxy7Pm']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6e2e6/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_6e2e6.dir/build.make CMakeFiles/cmTC_6e2e6.dir/build]
+        ignore line: [make[1]: Entering directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-nxy7Pm']
+        ignore line: [Building CXX object CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/edercito/.nix-profile/bin/c++   -v -MD -MT CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-nxy7Pm -v -fcoverage-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-nxy7Pm -nostdsysteminc -resource-dir /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root -dependency-file CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0 -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include -fmacro-prefix-map=/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-67-dev/include -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0 -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-unknown-linux-gnu]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0]
+        ignore line: [ /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu]
+        ignore line: [ /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include]
+        ignore line: [ /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_6e2e6]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e2e6.dir/link.txt --verbose=1]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_6e2e6 /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib -L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib -L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o]
+          arg [/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_6e2e6] ==> ignore
+          arg [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o] ==> obj [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o]
+          arg [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o] ==> obj [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o]
+          arg [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o] ==> obj [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o]
+          arg [-L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib] ==> dir [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib]
+          arg [-L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib] ==> dir [/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib]
+          arg [-L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib] ==> dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib]
+          arg [-L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib] ==> dir [/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib]
+          arg [-L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib] ==> dir [/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib]
+          arg [-L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_6e2e6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o] ==> obj [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o]
+          arg [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o] ==> obj [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o]
+        linker tool for 'CXX': /nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld
+        collapse library dir [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib] ==> [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib]
+        collapse library dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib] ==> [/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib]
+        collapse library dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib]
+        collapse library dir [/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib] ==> [/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib]
+        collapse library dir [/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib] ==> [/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib]
+        collapse library dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o;/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o;/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o]
+        implicit dirs: [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0;/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib;/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib;/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib;/lib64;/usr/lib64;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 6.18.38-4-lts - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/edercito/.nix-profile/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /home/edercito/Development/EtexUI/build/CMakeFiles/4.4.0/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.local/bin"
+        - "/home/edercito/.opencode/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.guix-profile/bin"
+        - "/home/edercito/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/edercito/.nix-profile/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/edercito/Development/EtexUI/build/CMakeFiles/4.4.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-uek9az"
+      binary: "/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-uek9az"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-uek9az'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_23d68/fast
+        make[1]: Entering directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-uek9az'
+        /usr/bin/make  -f CMakeFiles/cmTC_23d68.dir/build.make CMakeFiles/cmTC_23d68.dir/build
+        make[2]: Entering directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-uek9az'
+        Building C object CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o
+        /home/edercito/.nix-profile/bin/cc   -v -MD -MT CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        clang version 21.1.8
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin
+        Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin/clang-21" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-uek9az -v -fcoverage-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-uek9az -nostdsysteminc -resource-dir /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root -dependency-file CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o -sys-header-deps -idirafter /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0 -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include -fmacro-prefix-map=/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-67-dev/include -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0 -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include
+         /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include
+        End of search list.
+        Linking C executable cmTC_23d68
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23d68.dir/link.txt --verbose=1
+        clang version 21.1.8
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin
+        Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_23d68 /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib -L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib -L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o
+        GNU ld (GNU Binutils) 2.46
+        /home/edercito/.nix-profile/bin/cc  -v -Wl,-v CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o -o cmTC_23d68
+        make[2]: Leaving directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-uek9az'
+        make[1]: Leaving directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-uek9az'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include]
+          add: [/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include] ==> [/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include]
+        collapse include dir [/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include] ==> [/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+        implicit include dirs: [/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include;/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-uek9az']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_23d68/fast]
+        ignore line: [make[1]: Entering directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-uek9az']
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_23d68.dir/build.make CMakeFiles/cmTC_23d68.dir/build]
+        ignore line: [make[2]: Entering directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-uek9az']
+        ignore line: [Building C object CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/edercito/.nix-profile/bin/cc   -v -MD -MT CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin/clang-21" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-uek9az -v -fcoverage-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-uek9az -nostdsysteminc -resource-dir /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root -dependency-file CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o -sys-header-deps -idirafter /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0 -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include -fmacro-prefix-map=/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-67-dev/include -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0 -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-unknown-linux-gnu]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include]
+        ignore line: [ /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_23d68]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23d68.dir/link.txt --verbose=1]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_23d68 /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib -L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib -L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o] ==> linker [/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld]
+        link line: [ "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_23d68 /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib -L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib -L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o] ==> linker architecture flags [-m;elf]
+        link line: [ "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_23d68 /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib -L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib -L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o]
+          arg [/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_23d68] ==> ignore
+          arg [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o] ==> obj [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o]
+          arg [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o] ==> obj [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o]
+          arg [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o] ==> obj [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o]
+          arg [-L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib] ==> dir [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib]
+          arg [-L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib] ==> dir [/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib]
+          arg [-L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib] ==> dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib]
+          arg [-L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib] ==> dir [/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib]
+          arg [-L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib] ==> dir [/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib]
+          arg [-L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_23d68.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o] ==> obj [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o]
+          arg [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o] ==> obj [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o]
+        linker tool for 'C': /nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld -m;elf
+        collapse library dir [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib] ==> [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib]
+        collapse library dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib] ==> [/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib]
+        collapse library dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib]
+        collapse library dir [/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib] ==> [/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib]
+        collapse library dir [/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib] ==> [/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib]
+        collapse library dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o;/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o;/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o]
+        implicit dirs: [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0;/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib;/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib;/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib;/lib64;/usr/lib64;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-TV2Dqv"
+      binary: "/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-TV2Dqv"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-TV2Dqv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c336d/fast
+        make[1]: Entering directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-TV2Dqv'
+        /usr/bin/make  -f CMakeFiles/cmTC_c336d.dir/build.make CMakeFiles/cmTC_c336d.dir/build
+        make[2]: Entering directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-TV2Dqv'
+        Building CXX object CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o
+        /home/edercito/.nix-profile/bin/c++   -v -MD -MT CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 21.1.8
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin
+        Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-TV2Dqv -v -fcoverage-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-TV2Dqv -nostdsysteminc -resource-dir /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root -dependency-file CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0 -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include -fmacro-prefix-map=/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-67-dev/include -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0 -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0
+         /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu
+         /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include
+         /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include
+        End of search list.
+        Linking CXX executable cmTC_c336d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c336d.dir/link.txt --verbose=1
+        clang version 21.1.8
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin
+        Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_c336d /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib -L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib -L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o
+        GNU ld (GNU Binutils) 2.46
+        /home/edercito/.nix-profile/bin/c++  -v -Wl,-v CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c336d
+        make[2]: Leaving directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-TV2Dqv'
+        make[1]: Leaving directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-TV2Dqv'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0]
+          add: [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu]
+          add: [/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include]
+          add: [/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0]
+        collapse include dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu]
+        collapse include dir [/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include] ==> [/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include]
+        collapse include dir [/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include] ==> [/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+        implicit include dirs: [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu;/nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include;/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-TV2Dqv']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c336d/fast]
+        ignore line: [make[1]: Entering directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-TV2Dqv']
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_c336d.dir/build.make CMakeFiles/cmTC_c336d.dir/build]
+        ignore line: [make[2]: Entering directory '/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-TV2Dqv']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/edercito/.nix-profile/bin/c++   -v -MD -MT CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-TV2Dqv -v -fcoverage-compilation-dir=/home/edercito/Development/EtexUI/build/CMakeFiles/CMakeScratch/TryCompile-TV2Dqv -nostdsysteminc -resource-dir /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root -dependency-file CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0 -cxx-isystem /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include -fmacro-prefix-map=/nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-67-dev/include -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0 -fmacro-prefix-map=/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-unknown-linux-gnu]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0]
+        ignore line: [ /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu]
+        ignore line: [ /nix/store/l6mji5kmnmpz1inr3ri3j5f6f527rfs6-clang-wrapper-21.1.8/resource-root/include]
+        ignore line: [ /nix/store/q5wv2ldpcv5w8yb2wmsngsygvlxb73fk-glibc-2.42-67-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_c336d]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c336d.dir/link.txt --verbose=1]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/8syk3pg072y4npf5d7ml76c4pvy6dkfw-clang-21.1.8/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Selected GCC installation: /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_c336d /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib -L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib -L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o] ==> linker [/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld]
+        link line: [ "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_c336d /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib -L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib -L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o] ==> linker architecture flags [-m;elf]
+        link line: [ "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_c336d /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib -L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib -L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib -L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o]
+          arg [/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c336d] ==> ignore
+          arg [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o] ==> obj [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o]
+          arg [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o] ==> obj [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o]
+          arg [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o] ==> obj [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o]
+          arg [-L/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib] ==> dir [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib]
+          arg [-L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib] ==> dir [/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib]
+          arg [-L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib] ==> dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib]
+          arg [-L/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib] ==> dir [/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib]
+          arg [-L/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib] ==> dir [/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib]
+          arg [-L/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-dynamic-linker=/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_c336d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o] ==> obj [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o]
+          arg [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o] ==> obj [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o]
+        linker tool for 'CXX': /nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld -m;elf
+        collapse library dir [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib] ==> [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib]
+        collapse library dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib] ==> [/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib]
+        collapse library dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0//lib] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib]
+        collapse library dir [/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib] ==> [/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib]
+        collapse library dir [/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib] ==> [/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib]
+        collapse library dir [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/Scrt1.o;/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crti.o;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o;/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib/crtn.o]
+        implicit dirs: [/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67/lib;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0;/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib/lib;/nix/store/sq0nrnfwhkc5ljvklnrk5ps4358g4nbj-gcc-15.2.0/lib;/nix/store/7nww4d4yl7jzf66qllvyn61xb21vp7ry-gcc-15.2.0-libgcc/lib;/nix/store/7306wrcri9nmdp7w4pbqc5rqdn6y048d-clang-21.1.8-lib/lib;/lib64;/usr/lib64;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/nix/store/11mwx2jg7hyr5m1q60k0ki5cijjhiz13-binutils-wrapper-2.46/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46
+...

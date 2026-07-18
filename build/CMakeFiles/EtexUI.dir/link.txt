@@ -1,0 +1,1 @@
+/home/edercito/.nix-profile/bin/c++ -Xlinker --dependency-file=CMakeFiles/EtexUI.dir/link.d CMakeFiles/EtexUI.dir/src/main.cpp.o CMakeFiles/EtexUI.dir/src/core/Buffer.cpp.o CMakeFiles/EtexUI.dir/src/core/Cursor.cpp.o CMakeFiles/EtexUI.dir/src/core/Editor.cpp.o -o EtexUI

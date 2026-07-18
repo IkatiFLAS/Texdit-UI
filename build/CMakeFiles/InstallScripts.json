@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/edercito/Development/EtexUI/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
