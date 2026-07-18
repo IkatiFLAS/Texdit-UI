@@ -12,8 +12,9 @@ bool Buffer::open(const std::string& path) {
 
     std::string line;
 
-    while (std::getline(file, line))
+    while (std::getline(file, line)) {
         lines.push_back(line);
+    }
 
     return true;
 }

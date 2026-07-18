@@ -1,3 +1,0 @@
-/home/edercito/Development/EtexUI/build/CMakeFiles/EtexUI.dir
-/home/edercito/Development/EtexUI/build/CMakeFiles/edit_cache.dir
-/home/edercito/Development/EtexUI/build/CMakeFiles/rebuild_cache.dir
