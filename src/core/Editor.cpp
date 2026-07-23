@@ -51,23 +51,25 @@ void Editor::render() const {
         auto line =
             m_buffer.getLine(row);
 
-        std::cout << line << '\n';
+        std::cout << "\n";
 
-        if (row == m_cursor.row()) {
-
-            for (size_t i = 0;
-                 i < m_cursor.col();
-                 ++i)
+        for (size_t i = 0;
+            i < line.size();
+            ++i)
+        {
+            if (row == m_cursor.row()
+                    && i == m_cursor.col())
             {
-                std::cout << ' ';
+                std::cout << "|";
             }
 
-            std::cout << "\n";
+            std::cout << line[i];
         }
     }
 
-    std::cout << '\n';
-    std::cout << "--------------------\n";
+
+    std::cout << "\n";
+    std::cout << "\n--------------------\n";
 
 
     switch (m_mode) {
