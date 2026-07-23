@@ -30,6 +30,8 @@ class Editor {
         void setMode(Mode mode);
 
         void insertChar(char ch);
+
+        void deleteChar();
         
     private:
         Buffer m_buffer;

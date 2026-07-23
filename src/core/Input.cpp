@@ -14,6 +14,11 @@ bool Input::handleKey(
             return true;
         }
 
+        if (key == 127) {
+            editor.deleteChar();
+            return true;
+        }
+
     editor.insertChar(key);
     return true;
     }

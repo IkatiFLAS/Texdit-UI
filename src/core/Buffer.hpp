@@ -17,6 +17,11 @@ public:
         char ch
     );
 
+    void deleteChar(
+        size_t row,
+        size_t col
+    );
+
 private:
     std::vector<std::string> lines;
 };

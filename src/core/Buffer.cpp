@@ -58,3 +58,19 @@ void Buffer::insertChar(
         ch
     );
 }
+
+void Buffer::deleteChar(
+    size_t row,
+    size_t col
+) {
+    if (row >= lines.size())
+        return;
+
+    if (col == 0)
+        return;
+
+    if (col > lines[row].size())
+        return;
+
+    lines[row].erase(col - 1, 1);
+}

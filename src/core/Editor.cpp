@@ -44,8 +44,6 @@ void Editor::moveDown() {
 
 void Editor::render() const {
 
-    std::cout << "\n";
-
     for (size_t row = 0;
          row < m_buffer.lineCount();
          ++row)
@@ -126,4 +124,14 @@ void Editor::insertChar(char ch) {
             m_cursor.row()
         ).size()
     );
+}
+
+void Editor::deleteChar() {
+
+    m_buffer.deleteChar(
+        m_cursor.row(),
+        m_cursor.col()
+    );
+
+    m_cursor.moveLeft();
 }
