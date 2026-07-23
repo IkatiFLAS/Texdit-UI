@@ -11,6 +11,12 @@ public:
     std::string getLine(size_t row) const;
     size_t lineCount() const;
 
+    void insertChar(
+        size_t row,
+        size_t col,
+        char ch
+    );
+
 private:
     std::vector<std::string> lines;
 };

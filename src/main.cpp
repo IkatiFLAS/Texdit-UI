@@ -2,21 +2,38 @@
 #include "core/Buffer.hpp"
 #include "core/Cursor.hpp"
 #include "core/Editor.hpp"
+#include "core/Terminal.hpp"
+#include "core/Input.hpp"
+
 
 int main() {
     Editor editor;
 
-    bool opened = editor.openFile("test.txt");
+    if (!editor.openFile("test.txt")) {
+        std::cout << "no se puede abrir\n";
+        return 1;
+    }
 
-    std::cout << "Archivo Abierto: " << opened << '\n';
-    std::cout << "Lineas: " << editor.lineCount() << '\n';
+    Terminal::enableRawMode();
+    std::cout << "RAW ACTIVADO\n";
 
-    editor.moveRight();
-    editor.moveRight();
+    char key;
 
-    std::cout << "Fila: " << editor.cursorRow() << '\n';
+    editor.setMode(Mode::Normal);
 
-    std::cout << "Columna: " << editor.cursorCol() << '\n';
+    while (true) {
+        editor.clearScreen();
+        editor.render();
 
-    return 0;
+       
+        key = getchar();
+
+        if (!Input::handleKey(
+                editor,
+                key))
+        {
+            Terminal::disableRawMode();
+            return 0;
+        }
+    }
 }

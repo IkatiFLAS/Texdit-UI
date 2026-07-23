@@ -41,3 +41,20 @@ std::string Buffer::getLine(size_t row) const {
 size_t Buffer::lineCount() const {
     return lines.size();
 }
+
+void Buffer::insertChar(
+    size_t row,
+    size_t col,
+    char ch
+){
+    if (row >= lines.size())
+        return;
+
+    if (col > lines[row].size())
+        return;
+
+    lines[row].insert(
+        lines[row].begin() + col,
+        ch
+    );
+}

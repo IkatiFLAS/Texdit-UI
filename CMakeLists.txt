@@ -8,4 +8,6 @@ add_executable(EtexUI
     src/core/Buffer.cpp
     src/core/Cursor.cpp
     src/core/Editor.cpp
+    src/core/Terminal.cpp
+    src/core/Input.cpp
 )
