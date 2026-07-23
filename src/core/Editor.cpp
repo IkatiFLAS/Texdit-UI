@@ -62,11 +62,9 @@ void Editor::render() const {
                 std::cout << ' ';
             }
 
-            std::cout << "^\n";
+            std::cout << "\n";
         }
     }
-
-    std::cout << '\n';
 
     std::cout << '\n';
     std::cout << "--------------------\n";
